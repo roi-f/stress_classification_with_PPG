@@ -2,11 +2,8 @@
 # !pip install nolds
 
 # +
-import sys
-sys.path.append("/home/sheo1/stress_classification_with_PPG/preprocessing_tool/") 
-
-from noise_reduction import *
-from peak_detection import *
+from preprocessing_tool.noise_reduction import *
+from preprocessing_tool.peak_detection import *
 
 import math
 import numpy as np

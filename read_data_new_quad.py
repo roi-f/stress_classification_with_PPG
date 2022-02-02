@@ -12,7 +12,7 @@ from preprocessing_tool.feature_extraction import *
 WINDOW_IN_SECONDS = 120  # 120 / 180 / 300
 
 NOISE = ['bp_time_ens']
-main_path='/home/sheo1/stress_classification_with_PPG/WESAD/'
+main_path='/Users/roifl/ReMind/WESAD'
 
 # +
 # E4 (wrist) Sampling Frequencies

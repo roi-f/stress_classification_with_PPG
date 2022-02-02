@@ -15,7 +15,7 @@ WINDOW_IN_SECONDS = 120  # 120 / 180 / 300
 
 # If you want to apply noise filtering(band-pass filter), noise elimination, and ensemble, include 'bp','time','ens' each in variable NOISE.
 NOISE = ['bp_time_ens']
-main_path='/home/sheo1/stress_classification_with_PPG/WESAD/'
+main_path='/Users/roifl/ReMind/WESAD/'
 
 
 # +

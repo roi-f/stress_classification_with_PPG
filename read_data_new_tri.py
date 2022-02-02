@@ -12,7 +12,7 @@ from preprocessing_tool.feature_extraction import *
 WINDOW_IN_SECONDS = 120  # 120 / 180 / 300
 
 NOISE = ['bp_time_ens']
-main_path='/home/sheo1/stress_classification_with_PPG/WESAD/'
+main_path='/Users/roifl/ReMind/WESAD'
 
 # +
 # E4 (wrist) Sampling Frequencies
@@ -144,7 +144,7 @@ def make_patient_data(subject_id,ma_usage):
     cycle = 15
     
     # Make subject data object for Sx
-    subject = SubjectData(main_path=main_path', subject_number=subject_id)
+    subject = SubjectData(main_path=main_path, subject_number=subject_id)
     
     # Empatica E4 data
     e4_data_dict = subject.get_wrist_data()
